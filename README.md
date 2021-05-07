@@ -17,6 +17,12 @@ Write an algorithm that finds the minimum number of trial drops it will take, in
 For example, if N = 1 and k = 5, we will need to try dropping the egg at every floor, beginning with the first, until we reach the fifth floor, so our solution will be 5.   
 [Solution](Goldman-Sachs/Medium/1.cpp)
 
+## IBM
+### Level: Easy
+1. Given a string with repeated characters, rearrange the string so that no two adjacent characters are the same. If this is not possible, return None.
+For example, given "aaabbc", you could return "ababac". Given "aaab", return None.  
+[Solution](IBM/Easy/1.cpp)
+
 ## Microsoft
 ### Level: Medium
 1. The [tower of Hanoi](https://en.wikipedia.org/wiki/Tower_of_Hanoi) is a famous puzzle where we have three rods and N disks. The objective of the puzzle is to move the entire stack to another rod. You are given the number of discs N. Initially, these discs are in the rod 1. You need to print all the steps of discs movement so that all the discs reach the 3rd rod. Also, you need to find the total moves.
