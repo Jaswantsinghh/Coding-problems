@@ -10,6 +10,25 @@ ladders = {1: 38, 4: 14, 9: 31, 21: 42, 28: 84, 36: 44, 51: 67, 71: 91, 80: 100}
 ``  
 [Solution](Flipkart/Medium/1.cpp)
 
+## Google
+### Easy
+1. Implement a PrefixMapSum class with the following methods:  
+   - insert(key: str, value: int): Set a given key's value in the map. If the key already exists, overwrite the value.
+   - sum(prefix: str): Return the sum of all values of keys that begin with a given prefix.
+   For example, you should be able to run the following code:     
+``   
+mapsum.insert("columnar", 3)
+``   
+``  
+assert mapsum.sum("col") == 3 
+``  
+``  
+mapsum.insert("column", 2)
+``  
+``  
+assert mapsum.sum("col") == 5  
+``  
+    [Solution](Google/Easy/1.cpp)
 ## Goldman Sachs
 ### Level: Medium
 1. You are given N identical eggs and access to a building with k floors. Your task is to find the lowest floor that will cause an egg to break, if dropped from that floor. Once an egg breaks, it cannot be dropped again. If an egg breaks when dropped from the xth floor, you can assume it will also break when dropped from any floor greater than x.  
