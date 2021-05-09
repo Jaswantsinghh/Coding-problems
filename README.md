@@ -1,7 +1,7 @@
 # Coding-problems
 ## Apple
 ### Level: Easy
-1. Implement the function fib(n), which returns the nth number in the Fibonacci sequence, using only O(1) space.
+1. Implement the function fib(n), which returns the nth number in the Fibonacci sequence, using only O(1) space.   
    [Solution](Apple/Easy/1.cpp)
 
 ## Flipkart
