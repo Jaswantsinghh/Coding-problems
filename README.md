@@ -77,8 +77,39 @@ Explanation: For N=3 , steps will be
 as follows in the example and total 
 7 steps will be taken.
 -  #### TAGS:- Recursion, basic mathematics.  
-[Solution](Microsoft/Medium/1.cpp)
+   [Solution](Microsoft/Medium/1.cpp)
 
+2. Given a non-negative integer S represented as a string, remove K digits from the number so that the new number is the smallest possible.  
+Note : The given num does not contain any leading zero.     
+  Example 1:    
+``
+Input: 
+``   
+``   
+S = "149811", K = 3
+``   
+``    
+Output: 111
+``   
+``   
+Explanation: Remove the three digits 
+4, 9, and 8 to form the new number 
+111 which is the smallest.
+``        
+  Example 2:     
+``
+Input:    
+S = "1002991", K = 3
+Output: 21
+Explanation: Remove the three digits
+1(leading one), 9, and 9 to form the 
+new number 21(Note that the output 
+must not contain leading zeroes) 
+which is the smallest.
+``     
+- ####   TAGS - Stack
+    [Solution](Microsoft/Medium/2.cpp)
+    
 ##  Twitter
 ### Level: Medium
 1. Given a list of numbers, create an algorithm that arranges them in order to form the largest possible integer.
