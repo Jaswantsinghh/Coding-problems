@@ -1,4 +1,72 @@
 # Coding-problems
+## Amazon
+### Level: Easy
+1. Minimum Cost of ropes  
+There are given N ropes of different lengths, we need to connect these ropes into one rope. The cost to connect two ropes is equal to sum of their lengths. The task is to connect the ropes with minimum cost.     
+Example 1:  
+``
+Input:   
+``    
+``
+n = 4
+``   
+``   
+arr[] = {4, 3, 2, 6}
+``   
+``   
+Output:
+``   
+``   
+29
+``    
+Explanation:  
+For example if we are given 4
+ropes of lengths 4, 3, 2 and 6. We can
+connect the ropes in following ways.  
+1) First connect ropes of lengths 2 and 3.
+Now we have three ropes of lengths 4, 6
+and 5.  
+2) Now connect ropes of lengths 4 and 5.
+Now we have two ropes of lengths 6 and 9.  
+3) Finally connect the two ropes and all
+ropes have connected.  
+Total cost for connecting all ropes is 5 + 9 + 15 = 29. This is the optimized cost
+for connecting ropes. Other ways of
+connecting ropes would always have same
+or more cost. For example, if we connect
+4 and 6 first (we get three strings of 3,
+2 and 10), then connect 10 and 3 (we get
+two strings of 13 and 2). Finally we
+connect 13 and 2. Total cost in this way
+is 10 + 13 + 15 = 38.   
+Example 2:   
+``
+Input:
+``  
+``  
+n = 5
+``   
+``    
+arr[] = {4, 2, 7, 6, 9}
+``   
+``     
+Output:
+``  
+``   
+62 
+``   
+Explanation:
+First, connect ropes 4 and 2, which makes
+the array {6,7,6,9}. Next, add ropes 6 and
+6, which results in {12,7,9}. Then, add 7
+and 9, which makes the array {12,16}. And
+finally add these two which gives {28}.
+Hence, the total cost is 6 + 12 + 16 + 
+28 = 62.
+- #### TAGS - Heap, queue
+   [Solution](Amazon/Easy/1.cpp)
+
+
 ## Apple
 ### Level: Easy
 1. Implement the function fib(n), which returns the nth number in the Fibonacci sequence, using only O(1) space.   
@@ -35,6 +103,71 @@ assert mapsum.sum("col") == 5
 ``  
     [Solution](Google/Easy/1.cpp)
 ## Goldman Sachs
+### Level: Easy
+1. Minimum Cost of ropes  
+There are given N ropes of different lengths, we need to connect these ropes into one rope. The cost to connect two ropes is equal to sum of their lengths. The task is to connect the ropes with minimum cost.     
+Example 1:  
+``
+Input:   
+``    
+``
+n = 4
+``   
+``   
+arr[] = {4, 3, 2, 6}
+``   
+``   
+Output:
+``   
+``   
+29
+``    
+Explanation:  
+For example if we are given 4
+ropes of lengths 4, 3, 2 and 6. We can
+connect the ropes in following ways.  
+1) First connect ropes of lengths 2 and 3.
+Now we have three ropes of lengths 4, 6
+and 5.  
+2) Now connect ropes of lengths 4 and 5.
+Now we have two ropes of lengths 6 and 9.  
+3) Finally connect the two ropes and all
+ropes have connected.  
+Total cost for connecting all ropes is 5 + 9 + 15 = 29. This is the optimized cost
+for connecting ropes. Other ways of
+connecting ropes would always have same
+or more cost. For example, if we connect
+4 and 6 first (we get three strings of 3,
+2 and 10), then connect 10 and 3 (we get
+two strings of 13 and 2). Finally we
+connect 13 and 2. Total cost in this way
+is 10 + 13 + 15 = 38.   
+Example 2:   
+``
+Input:
+``  
+``  
+n = 5
+``   
+``    
+arr[] = {4, 2, 7, 6, 9}
+``   
+``     
+Output:
+``  
+``   
+62 
+``   
+Explanation:
+First, connect ropes 4 and 2, which makes
+the array {6,7,6,9}. Next, add ropes 6 and
+6, which results in {12,7,9}. Then, add 7
+and 9, which makes the array {12,16}. And
+finally add these two which gives {28}.
+Hence, the total cost is 6 + 12 + 16 + 
+28 = 62.
+- #### TAGS - Heap, queue
+   [Solution](Amazon/Easy/1.cpp)
 ### Level: Medium
 1. You are given N identical eggs and access to a building with k floors. Your task is to find the lowest floor that will cause an egg to break, if dropped from that floor. Once an egg breaks, it cannot be dropped again. If an egg breaks when dropped from the xth floor, you can assume it will also break when dropped from any floor greater than x.  
 Write an algorithm that finds the minimum number of trial drops it will take, in the worst case, to identify this floor.
@@ -48,6 +181,71 @@ For example, given "aaabbc", you could return "ababac". Given "aaab", return Non
 [Solution](IBM/Easy/1.cpp)
 
 ## Microsoft
+### Level: Easy
+1. Minimum Cost of ropes  
+There are given N ropes of different lengths, we need to connect these ropes into one rope. The cost to connect two ropes is equal to sum of their lengths. The task is to connect the ropes with minimum cost.     
+Example 1:  
+``
+Input:   
+``    
+``
+n = 4
+``   
+``   
+arr[] = {4, 3, 2, 6}
+``   
+``   
+Output:
+``   
+``   
+29
+``    
+Explanation:  
+For example if we are given 4
+ropes of lengths 4, 3, 2 and 6. We can
+connect the ropes in following ways.  
+1) First connect ropes of lengths 2 and 3.
+Now we have three ropes of lengths 4, 6
+and 5.  
+2) Now connect ropes of lengths 4 and 5.
+Now we have two ropes of lengths 6 and 9.  
+3) Finally connect the two ropes and all
+ropes have connected.  
+Total cost for connecting all ropes is 5 + 9 + 15 = 29. This is the optimized cost
+for connecting ropes. Other ways of
+connecting ropes would always have same
+or more cost. For example, if we connect
+4 and 6 first (we get three strings of 3,
+2 and 10), then connect 10 and 3 (we get
+two strings of 13 and 2). Finally we
+connect 13 and 2. Total cost in this way
+is 10 + 13 + 15 = 38.   
+Example 2:   
+``
+Input:
+``  
+``  
+n = 5
+``   
+``    
+arr[] = {4, 2, 7, 6, 9}
+``   
+``     
+Output:
+``  
+``   
+62 
+``   
+Explanation:
+First, connect ropes 4 and 2, which makes
+the array {6,7,6,9}. Next, add ropes 6 and
+6, which results in {12,7,9}. Then, add 7
+and 9, which makes the array {12,16}. And
+finally add these two which gives {28}.
+Hence, the total cost is 6 + 12 + 16 + 
+28 = 62.
+- #### TAGS - Heap, queue
+   [Solution](Amazon/Easy/1.cpp)
 ### Level: Medium
 1. The [tower of Hanoi](https://en.wikipedia.org/wiki/Tower_of_Hanoi) is a famous puzzle where we have three rods and N disks. The objective of the puzzle is to move the entire stack to another rod. You are given the number of discs N. Initially, these discs are in the rod 1. You need to print all the steps of discs movement so that all the discs reach the 3rd rod. Also, you need to find the total moves.
 Note: The discs are arranged such that the top disc is numbered 1 and the bottom-most disc is numbered N. Also, all the discs have different sizes and a bigger disc cannot be put on the top of a smaller disc. Refer the provided link to get a better clarity about the puzzle.   
@@ -110,6 +308,72 @@ which is the smallest.
 - ####   TAGS - Stack
     [Solution](Microsoft/Medium/2.cpp)
     
+## OYO Rooms
+### Level: Easy
+1. Minimum Cost of ropes  
+There are given N ropes of different lengths, we need to connect these ropes into one rope. The cost to connect two ropes is equal to sum of their lengths. The task is to connect the ropes with minimum cost.     
+Example 1:  
+``
+Input:   
+``    
+``
+n = 4
+``   
+``   
+arr[] = {4, 3, 2, 6}
+``   
+``   
+Output:
+``   
+``   
+29
+``    
+Explanation:  
+For example if we are given 4
+ropes of lengths 4, 3, 2 and 6. We can
+connect the ropes in following ways.  
+1) First connect ropes of lengths 2 and 3.
+Now we have three ropes of lengths 4, 6
+and 5.  
+2) Now connect ropes of lengths 4 and 5.
+Now we have two ropes of lengths 6 and 9.  
+3) Finally connect the two ropes and all
+ropes have connected.  
+Total cost for connecting all ropes is 5 + 9 + 15 = 29. This is the optimized cost
+for connecting ropes. Other ways of
+connecting ropes would always have same
+or more cost. For example, if we connect
+4 and 6 first (we get three strings of 3,
+2 and 10), then connect 10 and 3 (we get
+two strings of 13 and 2). Finally we
+connect 13 and 2. Total cost in this way
+is 10 + 13 + 15 = 38.   
+Example 2:   
+``
+Input:
+``  
+``  
+n = 5
+``   
+``    
+arr[] = {4, 2, 7, 6, 9}
+``   
+``     
+Output:
+``  
+``   
+62 
+``   
+Explanation:
+First, connect ropes 4 and 2, which makes
+the array {6,7,6,9}. Next, add ropes 6 and
+6, which results in {12,7,9}. Then, add 7
+and 9, which makes the array {12,16}. And
+finally add these two which gives {28}.
+Hence, the total cost is 6 + 12 + 16 + 
+28 = 62.
+- #### TAGS - Heap, queue
+   [Solution](Amazon/Easy/1.cpp)
 ##  Twitter
 ### Level: Medium
 1. Given a list of numbers, create an algorithm that arranges them in order to form the largest possible integer.
