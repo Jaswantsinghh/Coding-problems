@@ -356,6 +356,38 @@ as follows in the example and total
 -  #### TAGS:- Recursion, basic mathematics.  
    [Solution](Microsoft/Medium/1.cpp)
 
+2. Given a non-negative integer S represented as a string, remove K digits from the number so that the new number is the smallest possible.  
+Note : The given num does not contain any leading zero.     
+  Example 1:    
+``
+Input: 
+``   
+``   
+S = "149811", K = 3
+``   
+``    
+Output: 111
+``   
+``   
+Explanation: Remove the three digits 
+4, 9, and 8 to form the new number 
+111 which is the smallest.
+``        
+  Example 2:     
+``
+Input:    
+S = "1002991", K = 3
+Output: 21
+Explanation: Remove the three digits
+1(leading one), 9, and 9 to form the 
+new number 21(Note that the output 
+must not contain leading zeroes) 
+which is the smallest.
+``     
+- ####   TAGS - Stack
+    [Solution](Microsoft/Medium/2.cpp)
+    
+
 ### Level: Hard
 1. Burning Tree
    Given a binary tree and a leaf node called target. Find the minimum time required to burn the complete binary tree if the target is set on fire. It is known that in 1 second all nodes connected to a given node get burned. That is, its left child, right child and parent.  
@@ -396,37 +428,9 @@ Output: 5
 - #### Tags - Tree
   [Solution](Amazon/Hard/1.cpp)
 
-2. Given a non-negative integer S represented as a string, remove K digits from the number so that the new number is the smallest possible.  
-Note : The given num does not contain any leading zero.     
-  Example 1:    
-``
-Input: 
-``   
-``   
-S = "149811", K = 3
-``   
-``    
-Output: 111
-``   
-``   
-Explanation: Remove the three digits 
-4, 9, and 8 to form the new number 
-111 which is the smallest.
-``        
-  Example 2:     
-``
-Input:    
-S = "1002991", K = 3
-Output: 21
-Explanation: Remove the three digits
-1(leading one), 9, and 9 to form the 
-new number 21(Note that the output 
-must not contain leading zeroes) 
-which is the smallest.
-``     
-- ####   TAGS - Stack
-    [Solution](Microsoft/Medium/2.cpp)
-    
+2. Recall that the minimum spanning tree is the subset of edges of a tree that connect all its vertices with the smallest possible total edge weight. Given an undirected graph with weighted edges, compute the maximum weight spanning tree.    
+  [Solution](Microsoft/Hard/1.cpp)
+
 ## OYO Rooms
 ### Level: Easy
 1. Minimum Cost of ropes  
