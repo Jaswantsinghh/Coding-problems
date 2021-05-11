@@ -66,6 +66,45 @@ Hence, the total cost is 6 + 12 + 16 +
 - #### TAGS - Heap, queue
    [Solution](Amazon/Easy/1.cpp)
 
+### Level: Hard
+1. Burning Tree
+   Given a binary tree and a leaf node called target. Find the minimum time required to burn the complete binary tree if the target is set on fire. It is known that in 1 second all nodes connected to a given node get burned. That is, its left child, right child and parent.  
+Example 1:     
+Input :      
+          1  
+        /   \  
+      2      3  
+    /  \      \  
+   4    5      6  
+       / \      \  
+      7   8      9  
+                   \  
+                   10  
+Target Node = 8  
+Output: 7   
+Explanation: If leaf with the value 
+8 is set on fire.   
+After 1 sec: 5 is set on fire.  
+After 2 sec: 2, 7 are set to fire.  
+After 3 sec: 4, 1 are set to fire.  
+After 4 sec: 3 is set to fire.  
+After 5 sec: 6 is set to fire.  
+After 6 sec: 9 is set to fire.  
+After 7 sec: 10 is set to fire.  
+It takes 7s to burn the complete tree.  
+Example 2:  
+Input :        
+          1  
+        /   \  
+      2      3  
+    /  \      \  
+   4    5      7  
+  /    /   
+ 8    10  
+Target Node = 10  
+Output: 5  
+- #### Tags - Tree
+  [Solution](Amazon/Hard/1.cpp)
 
 ## Apple
 ### Level: Easy
@@ -82,6 +121,46 @@ snakes = {16: 6, 48: 26, 49: 11, 56: 53, 62: 19, 64: 60, 87: 24, 93: 73, 95: 75,
 ladders = {1: 38, 4: 14, 9: 31, 21: 42, 28: 84, 36: 44, 51: 67, 71: 91, 80: 100}
 ``  
 [Solution](Flipkart/Medium/1.cpp)
+
+### Level: Hard
+1. Burning Tree
+   Given a binary tree and a leaf node called target. Find the minimum time required to burn the complete binary tree if the target is set on fire. It is known that in 1 second all nodes connected to a given node get burned. That is, its left child, right child and parent.  
+Example 1:     
+Input :      
+          1  
+        /   \  
+      2      3  
+    /  \      \  
+   4    5      6  
+       / \      \  
+      7   8      9  
+                   \  
+                   10  
+Target Node = 8  
+Output: 7   
+Explanation: If leaf with the value 
+8 is set on fire.   
+After 1 sec: 5 is set on fire.  
+After 2 sec: 2, 7 are set to fire.  
+After 3 sec: 4, 1 are set to fire.  
+After 4 sec: 3 is set to fire.  
+After 5 sec: 6 is set to fire.  
+After 6 sec: 9 is set to fire.  
+After 7 sec: 10 is set to fire.  
+It takes 7s to burn the complete tree.  
+Example 2:  
+Input :        
+          1  
+        /   \  
+      2      3  
+    /  \      \  
+   4    5      7  
+  /    /   
+ 8    10  
+Target Node = 10  
+Output: 5  
+- #### Tags - Tree
+  [Solution](Amazon/Hard/1.cpp)
 
 ## Google
 ### Easy
@@ -276,6 +355,46 @@ as follows in the example and total
 7 steps will be taken.
 -  #### TAGS:- Recursion, basic mathematics.  
    [Solution](Microsoft/Medium/1.cpp)
+
+### Level: Hard
+1. Burning Tree
+   Given a binary tree and a leaf node called target. Find the minimum time required to burn the complete binary tree if the target is set on fire. It is known that in 1 second all nodes connected to a given node get burned. That is, its left child, right child and parent.  
+Example 1:     
+Input :      
+          1  
+        /   \  
+      2      3  
+    /  \      \  
+   4    5      6  
+       / \      \  
+      7   8      9  
+                   \  
+                   10  
+Target Node = 8  
+Output: 7   
+Explanation: If leaf with the value 
+8 is set on fire.   
+After 1 sec: 5 is set on fire.  
+After 2 sec: 2, 7 are set to fire.  
+After 3 sec: 4, 1 are set to fire.  
+After 4 sec: 3 is set to fire.  
+After 5 sec: 6 is set to fire.  
+After 6 sec: 9 is set to fire.  
+After 7 sec: 10 is set to fire.  
+It takes 7s to burn the complete tree.  
+Example 2:  
+Input :        
+          1  
+        /   \  
+      2      3  
+    /  \      \  
+   4    5      7  
+  /    /   
+ 8    10  
+Target Node = 10  
+Output: 5  
+- #### Tags - Tree
+  [Solution](Amazon/Hard/1.cpp)
 
 2. Given a non-negative integer S represented as a string, remove K digits from the number so that the new number is the smallest possible.  
 Note : The given num does not contain any leading zero.     
