@@ -386,7 +386,11 @@ which is the smallest.
 ``     
 - ####   TAGS - Stack
     [Solution](Microsoft/Medium/2.cpp)
-    
+
+3. Remove BST keys outside given range.
+Given a Binary Search Tree (BST) and a range [min, max], remove all keys which are outside the given range. The modified tree should also be BST.   
+- #### Tags - Binary Search Tree  
+   [Solution](Samsung/Medium/1.cpp)
 
 ### Level: Hard
 1. Burning Tree
@@ -497,6 +501,15 @@ Hence, the total cost is 6 + 12 + 16 +
 28 = 62.
 - #### TAGS - Heap, queue
    [Solution](Amazon/Easy/1.cpp)
+   
+## Samsung
+### Level: Medium
+1. Remove BST keys outside given range.
+Given a Binary Search Tree (BST) and a range [min, max], remove all keys which are outside the given range. The modified tree should also be BST.   
+- #### Tags - Binary Search Tree  
+   [Solution](Samsung/Medium/1.cpp)
+  
+   
 ##  Twitter
 ### Level: Medium
 1. Given a list of numbers, create an algorithm that arranges them in order to form the largest possible integer.
