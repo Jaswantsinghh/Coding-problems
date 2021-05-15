@@ -66,6 +66,28 @@ Hence, the total cost is 6 + 12 + 16 +
 - #### TAGS - Heap, queue
    [Solution](Amazon/Easy/1.cpp)
 
+### Level: Medium
+1. Josephus Problem  
+   Given the total number of persons n and a number k which indicates that k-1 persons are skipped and kth person is killed in circle in a fixed direction.  
+The task is to choose the safe place in the circle so that when you perform these operations starting from 1st place in the circle, you are the last one remaining and survive.   
+Example 1:  
+Input:  
+n = 3 k = 2  
+Output: 3  
+Explanation: There are 3 persons so   
+skipping 1 person i.e 1st person 2nd   
+person will be killed. Thus the safe   
+position is 3.  
+Example 2:    
+Input:  
+n = 5 k = 3   
+Output: 4    
+Explanation: There are 5 persons so   
+skipping 2 person i.e 3rd person will   
+be killed. Thus the safe position is 4.   
+- #### TAGS - Recursion, bit manipulation
+  [Solution](Walmart/Medium/1.cpp)   
+  
 ### Level: Hard
 1. Burning Tree
    Given a binary tree and a leaf node called target. Find the minimum time required to burn the complete binary tree if the target is set on fire. It is known that in 1 second all nodes connected to a given node get burned. That is, its left child, right child and parent.  
@@ -392,6 +414,27 @@ Given a Binary Search Tree (BST) and a range [min, max], remove all keys which a
 - #### Tags - Binary Search Tree  
    [Solution](Samsung/Medium/1.cpp)
 
+4. Josephus Problem  
+   Given the total number of persons n and a number k which indicates that k-1 persons are skipped and kth person is killed in circle in a fixed direction.  
+The task is to choose the safe place in the circle so that when you perform these operations starting from 1st place in the circle, you are the last one remaining and survive.   
+Example 1:  
+Input:  
+n = 3 k = 2  
+Output: 3  
+Explanation: There are 3 persons so   
+skipping 1 person i.e 1st person 2nd   
+person will be killed. Thus the safe   
+position is 3.  
+Example 2:    
+Input:  
+n = 5 k = 3   
+Output: 4    
+Explanation: There are 5 persons so   
+skipping 2 person i.e 3rd person will   
+be killed. Thus the safe position is 4.   
+- #### TAGS - Recursion, bit manipulation
+  [Solution](Walmart/Medium/1.cpp)
+
 ### Level: Hard
 1. Burning Tree
    Given a binary tree and a leaf node called target. Find the minimum time required to burn the complete binary tree if the target is set on fire. It is known that in 1 second all nodes connected to a given node get burned. That is, its left child, right child and parent.  
@@ -515,3 +558,26 @@ Given a Binary Search Tree (BST) and a range [min, max], remove all keys which a
 1. Given a list of numbers, create an algorithm that arranges them in order to form the largest possible integer.
    ### Example Test Case: [10, 7, 76, 415], you should return 77641510.
    [Solution](Twitter/Medium/1.cpp)
+
+## Walmart
+### Level: Medium
+1. Josephus Problem  
+   Given the total number of persons n and a number k which indicates that k-1 persons are skipped and kth person is killed in circle in a fixed direction.  
+The task is to choose the safe place in the circle so that when you perform these operations starting from 1st place in the circle, you are the last one remaining and survive.   
+Example 1:  
+Input:  
+n = 3 k = 2  
+Output: 3  
+Explanation: There are 3 persons so   
+skipping 1 person i.e 1st person 2nd   
+person will be killed. Thus the safe   
+position is 3.  
+Example 2:    
+Input:  
+n = 5 k = 3   
+Output: 4    
+Explanation: There are 5 persons so   
+skipping 2 person i.e 3rd person will   
+be killed. Thus the safe position is 4.   
+- #### TAGS - Recursion, bit manipulation
+  [Solution](Walmart/Medium/1.cpp)
