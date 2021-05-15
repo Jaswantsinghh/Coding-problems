@@ -281,6 +281,15 @@ For example, if N = 1 and k = 5, we will need to try dropping the egg at every f
 For example, given "aaabbc", you could return "ababac". Given "aaab", return None.  
 [Solution](IBM/Easy/1.cpp)
 
+
+
+
+
+
+
+
+
+
 ## Microsoft
 ### Level: Easy
 1. Minimum Cost of ropes  
@@ -347,6 +356,32 @@ Hence, the total cost is 6 + 12 + 16 +
 28 = 62.
 - #### TAGS - Heap, queue
    [Solution](Amazon/Easy/1.cpp)
+   
+2. Lucky Number
+   Lucky numbers are subset of integers. Rather than going into much theory, let us see the process of arriving at lucky numbers,
+Take the set of integers   
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,……    
+First, delete every second number, we get following reduced set.    
+1, 3, 5, 7, 9, 11, 13, 15, 17, 19,…………   
+Now, delete every third number, we get   
+1, 3, 7, 9, 13, 15, 19,….….    
+Continue this process indefinitely……    
+Any number that does NOT get deleted due to above process is called “lucky”.    
+Example 1:   
+Input:   
+N = 5  
+Output: 0   
+Explanation: 5 is not a lucky number    
+as it gets deleted in the second     
+iteration.    
+Example 2:   
+Input:   
+N = 19    
+Output: 1     
+Explanation: 19 is a lucky number        
+   - #### TAGS - Recursion   
+   [Solution](Microsoft/Easy/1.cpp)
+   
 ### Level: Medium
 1. The [tower of Hanoi](https://en.wikipedia.org/wiki/Tower_of_Hanoi) is a famous puzzle where we have three rods and N disks. The objective of the puzzle is to move the entire stack to another rod. You are given the number of discs N. Initially, these discs are in the rod 1. You need to print all the steps of discs movement so that all the discs reach the 3rd rod. Also, you need to find the total moves.
 Note: The discs are arranged such that the top disc is numbered 1 and the bottom-most disc is numbered N. Also, all the discs have different sizes and a bigger disc cannot be put on the top of a smaller disc. Refer the provided link to get a better clarity about the puzzle.   
