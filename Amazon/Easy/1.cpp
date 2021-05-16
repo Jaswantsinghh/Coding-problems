@@ -1,2 +1,2 @@
 //Problem Statement in README.md file
-//PR is welcomed in any language.
+//PR is welcomed in any programming language.
