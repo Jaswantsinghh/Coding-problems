@@ -128,10 +128,32 @@ Output: 5
 - #### Tags - Tree
   [Solution](Amazon/Hard/1.cpp)
 
+
+
+
+
+
+
+
+
+
+
+
 ## Apple
 ### Level: Easy
 1. Implement the function fib(n), which returns the nth number in the Fibonacci sequence, using only O(1) space.   
    [Solution](Apple/Easy/1.cpp)
+
+
+
+
+
+
+
+
+
+
+
 
 ## Flipkart
 ### Level: Medium
@@ -184,8 +206,18 @@ Output: 5
 - #### Tags - Tree
   [Solution](Amazon/Hard/1.cpp)
 
+
+
+
+
+
+
+
+
+
+
 ## Google
-### Easy
+### Level: Easy
 1. Implement a PrefixMapSum class with the following methods:  
    - insert(key: str, value: int): Set a given key's value in the map. If the key already exists, overwrite the value.
    - sum(prefix: str): Return the sum of all values of keys that begin with a given prefix.
@@ -203,6 +235,17 @@ mapsum.insert("column", 2)
 assert mapsum.sum("col") == 5  
 ``  
     [Solution](Google/Easy/1.cpp)
+
+### Level: Hard
+1. [Nth Natural Number](https://practice.geeksforgeeks.org/problems/nth-natural-number/1#)   
+   [Solution](Google/Hard/1.cpp)
+
+
+
+
+
+
+
 ## Goldman Sachs
 ### Level: Easy
 1. Minimum Cost of ropes  
